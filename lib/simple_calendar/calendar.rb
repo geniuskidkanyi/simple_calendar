@@ -26,7 +26,7 @@ module SimpleCalendar
           block: block,
           calendar: self,
           date_range: date_range,
-          start_date: start_date,
+          start_date: start.date,
           sorted_events: sorted_events
         }
       )
